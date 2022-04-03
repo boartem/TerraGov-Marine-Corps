@@ -272,8 +272,7 @@
 		ATTACHMENT_SLOT_UNDER,
 		ATTACHMENT_SLOT_MAGAZINE,
 	)
-	///the current gun attachment, used for attachment aim mode
-	var/obj/item/weapon/gun/gunattachment = null
+
 /*
  * Gun as Attachment Vars
 */

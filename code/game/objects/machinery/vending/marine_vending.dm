@@ -88,9 +88,6 @@
 		"Specialized" = list(
 			/obj/item/weapon/gun/grenade_launcher/multinade_launcher = -1,
 			/obj/item/weapon/gun/grenade_launcher/single_shot = -1,
-			/obj/item/weapon/gun/rifle/tx54 = 2,
-			/obj/item/ammo_magazine/rifle/tx54 = 10,
-			/obj/item/ammo_magazine/rifle/tx54/incendiary = 4,
 			/obj/item/weapon/gun/energy/lasgun/tesla = 2,
 			/obj/item/weapon/gun/rifle/pepperball = 4,
 			/obj/item/ammo_magazine/rifle/pepperball = 40,
@@ -112,6 +109,7 @@
 		"Grenades" = list(
 			/obj/item/explosive/grenade = 600,
 			/obj/item/explosive/grenade/m15 = 30,
+			/obj/item/explosive/grenade/impact = 125,
 			/obj/item/explosive/grenade/incendiary = 50,
 			/obj/item/explosive/grenade/smokebomb/cloak = 25,
 			/obj/item/explosive/grenade/smokebomb/drain = 10,
@@ -416,11 +414,6 @@
 		"Specialized" = list(
 			/obj/item/weapon/gun/grenade_launcher/multinade_launcher = -1,
 			/obj/item/weapon/gun/grenade_launcher/single_shot = -1,
-			/obj/item/weapon/gun/rifle/tx54 = -1,
-			/obj/item/ammo_magazine/rifle/tx54 = -1,
-			/obj/item/ammo_magazine/rifle/tx54/incendiary = -1,
-			/obj/item/weapon/gun/rifle/tx55 = -1,
-			/obj/item/ammo_magazine/rifle/tx55 = -1,
 			/obj/item/weapon/gun/energy/lasgun/tesla = -1,
 			/obj/item/weapon/gun/heavymachinegun = -1,
 			/obj/item/ammo_magazine/heavymachinegun = -1,
@@ -583,6 +576,7 @@
 		),
 		"Grenade Boxes" = list(
 			/obj/item/storage/box/visual/grenade/frag = 2,
+			/obj/item/storage/box/visual/grenade/impact = 2,
 			/obj/item/storage/box/visual/grenade/incendiary = 2,
 			/obj/item/storage/box/visual/grenade/M15 = 2,
 			/obj/item/storage/box/visual/grenade/cloak = 1,
@@ -1317,8 +1311,6 @@
 			/obj/item/armor_module/module/hlin_explosive_armor = -1,
 			/obj/item/attachable/heatlens = -1,
 			/obj/item/storage/backpack/lightpack = -1,
-			/obj/item/clothing/suit/storage/marine/riot = -1,
-			/obj/item/clothing/head/helmet/marine/riot = -1,
 		)
 	)
 
