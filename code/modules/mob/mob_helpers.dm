@@ -183,18 +183,13 @@ GLOBAL_LIST_INIT(organ_rel_size, list(
 				newletter = "о"
 			else if(lowerletter == "г")
 				newletter = "х"
-		if(rand(1, 20) == 20)
+		if(prob(5))
 			if(newletter == " ")
 				newletter = "...ээээээм..."
 			else if(newletter == ".")
 				newletter = " *ОТРЫЖКА*."
-		switch(rand(1, 20))
-			if(1)
-				newletter += "'"
-			if(10)
-				newletter += "[newletter]"
-			if(20)
-				newletter += "[newletter][newletter]"
+		if(prob(15))
+			newletter += pick(list("'", "[newletter]", "[newletter][newletter]"))
 		. += "[newletter]"
 	return sanitize(.)
 
@@ -240,18 +235,18 @@ GLOBAL_LIST_INIT(organ_rel_size, list(
 				newletter = " IT COMES... "
 			else if(newletter == "Х")
 				newletter = " ИДЁТ... "
-
-		switch(rand(1, 15))
-			if(1)
-				newletter = "'"
-			if(2)
-				newletter += "agn"
-			if(3)
-				newletter = "fth"
-			if(4)
-				newletter = "nglu"
-			if(5)
-				newletter = "glor"
+		if(prob(33))
+			switch(rand(1, 5))
+				if(1)
+					newletter = "'"
+				if(2)
+					newletter += "agn"
+				if(3)
+					newletter = "fth"
+				if(4)
+					newletter = "nglu"
+				if(5)
+					newletter = "glor"
 		. += newletter
 	return sanitize(.)
 
